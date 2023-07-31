@@ -35,7 +35,12 @@ public class GameManager : MonoBehaviour
     public float health = 10f;
     public Slider healthbar;
     public GameObject losescreen;
+
+    [Header("TOWER PRICES")]
     public float koopalauncherprice = 250f;
+    public float autoturretprice = 50f;
+    public float snipergoombaprice = 400f;
+    public float pistolgoombaprice = 300f;
     // Start is called before the first frame update
     void Start()
     {
@@ -110,9 +115,9 @@ public class GameManager : MonoBehaviour
 
     public void Snipergoomba()
     {
-        if(money >= 400)
+        if(money >= snipergoombaprice)
         {
-            money -= 400;
+            money -= snipergoombaprice;
             tower = goombawithsniper;
             cursorsr.sprite = goomba;
             closeshop();
@@ -121,9 +126,9 @@ public class GameManager : MonoBehaviour
     
     public void Pistolgoomba()
     {
-        if (money >= 300)
+        if (money >= pistolgoombaprice)
         {
-            money -= 300;
+            money -= pistolgoombaprice;
             tower = goombawithpistol;
             cursorsr.sprite = goomba;
             closeshop();
@@ -132,9 +137,9 @@ public class GameManager : MonoBehaviour
     
     public void Koopalauncher()
     {
-        if (money >= 1000)
+        if (money >= koopalauncherprice)
         {
-            money -= 1000;
+            money -= koopalauncherprice;
             tower = koopashelllauncher;
             cursorsr.sprite = koopa;
             closeshop();
@@ -143,9 +148,9 @@ public class GameManager : MonoBehaviour
     
     public void Autoturret()
     {
-        if (money >= 100)
+        if (money >= autoturretprice)
         {
-            money -= 100;
+            money -= autoturretprice;
             tower = automaticturret;
             cursorsr.sprite = auto;
             closeshop();

@@ -228,7 +228,7 @@ MonoBehaviour:
   bullet: {fileID: 7340819791508602987, guid: 6a8948091f4b0ac4f9b140f9c02e9a07, type: 3}
   shotpos: {fileID: 504163043102071920}
   anim: {fileID: 504163043119831414}
-  realshoottimer: 0.1
+  realshoottimer: 0.25
 --- !u!95 &504163043119831414
 Animator:
   serializedVersion: 5
