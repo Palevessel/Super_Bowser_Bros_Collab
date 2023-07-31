@@ -15,4 +15,9 @@ public class bullet : MonoBehaviour
     {
         transform.Translate(Vector3.right * -20f * Time.deltaTime);
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        Destroy(gameObject);
+    }
 }

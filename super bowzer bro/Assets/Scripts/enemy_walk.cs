@@ -36,5 +36,21 @@ public class enemy_walk : MonoBehaviour
         {
             health -= 1f;
         }
+    }  
+    
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.gameObject.tag == "auto bullet")
+        {
+            health -= 0.25f;
+        }        
+        if(other.gameObject.tag == "bullet")
+        {
+            health -= 0.5f;
+        }        
+        if(other.gameObject.tag == "sniper bullet")
+        {
+            health -= 1f;
+        }
     }
 }
