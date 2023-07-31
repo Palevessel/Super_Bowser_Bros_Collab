@@ -35,6 +35,7 @@ public class GameManager : MonoBehaviour
     public float health = 10f;
     public Slider healthbar;
     public GameObject losescreen;
+    public float koopalauncherprice = 250f;
     // Start is called before the first frame update
     void Start()
     {
@@ -87,8 +88,11 @@ public class GameManager : MonoBehaviour
         {
             enemyspawntimer -= Time.deltaTime;
         }
-
-        if(enemys.Length <= 0 && enemiestospawn <= 0f && waveactive == true)
+        if (enemys.Length <= 0 && enemiestospawn <= 0f && waveactive == true && realenemyspawntimer >= 0.2f)
+        {
+            realenemyspawntimer -= 0.2f;
+        }
+        if (enemys.Length <= 0 && enemiestospawn <= 0f && waveactive == true)
         {
             money += 100f;
             selectedspawnlocation = Random.Range(0, 6);
@@ -96,10 +100,7 @@ public class GameManager : MonoBehaviour
             enemiestospawn = wave * 4;
             waveactive = false;
         }
-        if (enemys.Length <= 0 && enemiestospawn <= 0f && waveactive == true && realenemyspawntimer >= 0.05f)
-        {
-            realenemyspawntimer -= 0.05f;
-        }
+
     }
 
     public void startwave()
