@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class loadgame : MonoBehaviour
 {
+
    public void quitgame()
    {
         Application.Quit();
@@ -13,6 +14,7 @@ public class loadgame : MonoBehaviour
 
     public void LevelSelect()
     {
+      
         SceneManager.LoadScene("LevelSelect");
     }
     public void Map1()
