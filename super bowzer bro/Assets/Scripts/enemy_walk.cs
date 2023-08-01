@@ -26,7 +26,7 @@ public class enemy_walk : MonoBehaviour
     {
         if(other.gameObject.tag == "auto bullet")
         {
-            health -= 0.25f;
+            health -= 0.15f;
         }        
         if(other.gameObject.tag == "bullet")
         {
@@ -42,7 +42,7 @@ public class enemy_walk : MonoBehaviour
     {
         if(other.gameObject.tag == "auto bullet")
         {
-            health -= 0.25f;
+            health -= 0.20f;
         }        
         if(other.gameObject.tag == "bullet")
         {
