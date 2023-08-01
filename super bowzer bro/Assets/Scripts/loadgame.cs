@@ -13,6 +13,6 @@ public class loadgame : MonoBehaviour
 
     public void loadthegame()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Map1");
     }
 }
