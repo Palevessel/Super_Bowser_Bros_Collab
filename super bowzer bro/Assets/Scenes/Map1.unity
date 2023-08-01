@@ -554,7 +554,7 @@ RectTransform:
   - {fileID: 948326977}
   - {fileID: 1799279748}
   m_Father: {fileID: 127601277}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -771,8 +771,8 @@ RectTransform:
   - {fileID: 636578056}
   - {fileID: 2061925601}
   - {fileID: 846265892}
-  - {fileID: 1939051446}
   - {fileID: 122428683}
+  - {fileID: 1939051446}
   - {fileID: 479441903}
   - {fileID: 1357732750}
   m_Father: {fileID: 0}
@@ -1562,7 +1562,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1420279516, guid: c8c0021f712cc0c4cac1beb5510f4840, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fc52a1b275cda734eac8bde894e761de, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11211,7 +11211,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1420279516, guid: c8c0021f712cc0c4cac1beb5510f4840, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a0ef14b7881dabf4a8e92328d7efdd3a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -15367,16 +15367,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Goomba with a sniper\n        $400"
+  m_text: "Angel with a sniper\n        $400"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5b5c20ebbe9e9bb43894b4da672eb093, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 6073203968102953051, guid: 5b5c20ebbe9e9bb43894b4da672eb093, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 16777215
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 0}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -15433,7 +15433,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: -293.32846, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1662164751
@@ -16113,16 +16113,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Goomba with a Pistol\n        $300"
+  m_text: "Angel with a Pistol\n        $300"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5b5c20ebbe9e9bb43894b4da672eb093, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 6073203968102953051, guid: 5b5c20ebbe9e9bb43894b4da672eb093, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 0
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 0}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -16179,7 +16179,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: -293.32846, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1799279750
@@ -16775,7 +16775,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1939051445}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -16784,11 +16784,11 @@ RectTransform:
   - {fileID: 302729188}
   - {fileID: 1662164749}
   m_Father: {fileID: 127601277}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 380, y: 50.632927}
+  m_AnchoredPosition: {x: 380, y: 50.632935}
   m_SizeDelta: {x: 151.7693, y: 116.2411}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1939051448
