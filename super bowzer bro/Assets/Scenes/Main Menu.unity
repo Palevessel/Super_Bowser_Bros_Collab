@@ -209,7 +209,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 829668499}
         m_TargetAssemblyTypeName: loadgame, Assembly-CSharp
-        m_MethodName: loadthegame
+        m_MethodName: LevelSelect
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

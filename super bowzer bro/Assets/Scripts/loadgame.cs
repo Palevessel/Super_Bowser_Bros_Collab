@@ -11,8 +11,16 @@ public class loadgame : MonoBehaviour
         Debug.Log("QUIT");
    }
 
-    public void loadthegame()
+    public void LevelSelect()
+    {
+        SceneManager.LoadScene("LevelSelect");
+    }
+    public void Map1()
     {
         SceneManager.LoadScene("Map1");
+    }
+    public void Map2()
+    {
+        SceneManager.LoadScene("Map2");
     }
 }
