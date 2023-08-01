@@ -825,17 +825,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1481298097}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.03838783, w: 0.9992629}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1901807577}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 4.4}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 514.7, y: 510.9}
+  m_AnchoredPosition: {x: 443.5, y: 538.4}
   m_SizeDelta: {x: 227.28, y: 50}
   m_Pivot: {x: 2.1520166, y: 7.510298}
 --- !u!114 &1481298099
@@ -858,7 +858,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Super Bowser Bros
+  m_text: 'Gods
+
+    Guns'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5b5c20ebbe9e9bb43894b4da672eb093, type: 2}
   m_sharedMaterial: {fileID: 6073203968102953051, guid: 5b5c20ebbe9e9bb43894b4da672eb093, type: 2}
@@ -885,10 +887,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
-  m_fontSizeBase: 36
+  m_fontSize: 128
+  m_fontSizeBase: 128
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
@@ -921,7 +923,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -363.42194, y: 0, z: 311.19666, w: -166.59003}
+  m_margin: {x: -363.42194, y: 0, z: 175.39032, w: -255.61859}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1200,7 +1202,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b4b60fd0333724c4984504f7dff3c9f3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6d7db9080eec692428c7e243dfc6a439, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
