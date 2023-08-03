@@ -138,6 +138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isonground: 0
+  health: 2
 --- !u!61 &7822572850693873341
 BoxCollider2D:
   m_ObjectHideFlags: 0

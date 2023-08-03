@@ -215,7 +215,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cdbe8c668a49e6a4fb5c416e1900c88a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetingrange: 2
+  targetingrange: 1.5
   target: {fileID: 0}
   enemymask:
     serializedVersion: 2
