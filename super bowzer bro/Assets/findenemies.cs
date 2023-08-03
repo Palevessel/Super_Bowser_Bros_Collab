@@ -51,6 +51,9 @@ public class findenemies : MonoBehaviour
 
     public void boom()
     {
-        
+      if(!angel.activeInHierarchy)
+        {
+            angel.SetActive(true);
+        }
     }
 }
