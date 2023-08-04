@@ -16,6 +16,7 @@ public class go_to_locater : MonoBehaviour
     void Start()
     {
         transform.parent = null;
+        transform.position = startinglocation.position;
     }
 
     // Update is called once per frame

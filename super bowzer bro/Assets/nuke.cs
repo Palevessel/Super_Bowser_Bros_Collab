@@ -7,6 +7,7 @@ public class nuke : MonoBehaviour
     public Transform parent;
     public float speed = 6f;
     public Transform originalposition;
+    public GameObject explosion;
     // Start is called before the first frame update
     void Awake()
     {
@@ -28,6 +29,7 @@ public class nuke : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+       Instantiate(explosion, transform.position, Quaternion.identity);
        transform.position = originalposition.position;
        transform.parent = originalposition;
     }

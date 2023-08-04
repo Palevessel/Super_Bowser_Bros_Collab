@@ -6533,7 +6533,7 @@ MonoBehaviour:
   realcooldown: 10
   enemydebugger: 0
   shouldkaboom: 0
-  angel: {fileID: 1500006987}
+  angel: {fileID: 1792319214}
 --- !u!4 &847542331 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2764846676320051040, guid: 59e14dbc92f4a1646ad9193b9f54a7fc, type: 3}
@@ -11247,7 +11247,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1792319215
 Transform:
   m_ObjectHideFlags: 0
@@ -13599,6 +13599,10 @@ PrefabInstance:
       propertyPath: parent
       value: 
       objectReference: {fileID: 1500006990}
+    - target: {fileID: 8447865768985168014, guid: 1e065f560f0f84b44ae8ae282dad156b, type: 3}
+      propertyPath: explosion
+      value: 
+      objectReference: {fileID: 6405007931748548309, guid: 8cfa060fc60fad442b013c27365ae8d0, type: 3}
     - target: {fileID: 8447865768985168014, guid: 1e065f560f0f84b44ae8ae282dad156b, type: 3}
       propertyPath: originalposition
       value: 
