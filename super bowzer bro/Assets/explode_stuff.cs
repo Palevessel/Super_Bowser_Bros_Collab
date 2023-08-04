@@ -28,7 +28,14 @@ public class explode_stuff : MonoBehaviour
 
         foreach(Collider2D obj in objects)
         {
-            obj.GetComponent<enemy_walk>().health -= 5f;
+            if(obj != null)
+            {
+              ew = obj.GetComponent<enemy_walk>();
+            }
+            if(ew != null)
+            {
+                ew.health -= 5f;
+            }
         }
     }
 
