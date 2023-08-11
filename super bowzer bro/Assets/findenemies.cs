@@ -12,10 +12,12 @@ public class findenemies : MonoBehaviour
     public float enemydebugger;
     public bool shouldkaboom;
     public GameObject angel;
+    public go_to_locater gtl;
     // Start is called before the first frame update
     void Start()
     {
-        
+        angel.transform.parent = null;
+        angel.transform.position = gtl.startpos;
     }
 
     // Update is called once per frame

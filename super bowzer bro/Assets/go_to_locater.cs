@@ -12,11 +12,12 @@ public class go_to_locater : MonoBehaviour
     public float speed = 5f;
     public Vector3 mypos;
     public float difference;
+    public Vector3 startpos;
     // Start is called before the first frame update
     void Start()
     {
         transform.parent = null;
-        transform.position = startinglocation.position;
+        transform.position = startpos;
     }
 
     // Update is called once per frame
@@ -41,14 +42,14 @@ public class go_to_locater : MonoBehaviour
 
         if (!isgoingtolocater)
         {
-            transform.position = Vector3.MoveTowards(transform.position, startinglocation.position, speed * Time.deltaTime);
+            transform.position = Vector3.MoveTowards(transform.position, startpos, speed * Time.deltaTime);
         }
 
-        difference = transform.position.x - startinglocation.position.x;
+        difference = transform.position.x - startpos.x;
 
 
         
-        if(transform.position == startinglocation.position && missile.transform.parent != null)
+        if(transform.position == startpos && missile.transform.parent != null)
         {
             isgoingtolocater = true;
             gameObject.SetActive(false);

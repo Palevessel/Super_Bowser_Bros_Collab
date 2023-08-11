@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 9c3c31038bd43984baaa921f1bc93de0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 67f37576cf32ba94eb8c97120ee0cfd0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -108,6 +108,7 @@ MonoBehaviour:
   enemydebugger: 0
   shouldkaboom: 0
   angel: {fileID: 3066026859105256449}
+  gtl: {fileID: 3066026859105256479}
 --- !u!1 &3066026859105256449
 GameObject:
   m_ObjectHideFlags: 0
@@ -158,9 +159,10 @@ MonoBehaviour:
   locator: {fileID: 923803381911557892}
   startinglocation: {fileID: 0}
   isgoingtolocater: 1
-  speed: 20
+  speed: 10
   mypos: {x: 0, y: 0, z: 0}
   difference: 0
+  startpos: {x: -16.50697, y: 1.506199, z: 0}
 --- !u!1 &3066026859419029668
 GameObject:
   m_ObjectHideFlags: 0
